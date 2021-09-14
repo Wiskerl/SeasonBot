@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Boo Bot - Home</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Cauldron.png" rel="icon" sizes="467x162" type="image/png">
+<link href="Halloween.css" rel="stylesheet">
+<link href="mobile.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Text13').addClass('visibility-hidden');
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+function countUpJavaScript1()
+{
+   var $obj = $('#JavaScript1');
+   var count = $obj.attr('data-count');
+   var bottomObj = $obj.offset().top + $obj.outerHeight();
+   var bottomWnd = $(window).scrollTop() + $(window).height();
+   if (bottomWnd > bottomObj && count != 0)
+   {
+      $({countUp: $obj.text()}).animate({countUp: count},
+      {
+         duration: 2000,
+         step: function() { $obj.text(Math.floor(this.countUp)); },
+         complete: function() { $obj.text(this.countUp); $obj.attr('data-count', 0); }
+      });  
+   }
+}
+$(window).scroll( function()
+{
+   countUpJavaScript1();
+});
+countUpJavaScript1();
+   function onScrollText13()
+   {
+      var $obj = $("#wb_Text13");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text13', 'slide-up-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text13', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text13').inViewPort(true))
+   {
+      $('#wb_Text13').addClass("in-viewport");
+   }
+   onScrollText13();
+   $(window).scroll(function(event)
+   {
+      onScrollText13();
+   });
+function countUpJavaScript2()
+{
+   var $obj = $('#JavaScript2');
+   var count = $obj.attr('data-count');
+   var bottomObj = $obj.offset().top + $obj.outerHeight();
+   var bottomWnd = $(window).scrollTop() + $(window).height();
+   if (bottomWnd > bottomObj && count != 0)
+   {
+      $({countUp: $obj.text()}).animate({countUp: count},
+      {
+         duration: 2000,
+         step: function() { $obj.text(Math.floor(this.countUp)); },
+         complete: function() { $obj.text(this.countUp); $obj.attr('data-count', 0); }
+      });  
+   }
+}
+$(window).scroll( function()
+{
+   countUpJavaScript2();
+});
+countUpJavaScript2();
+function countUpJavaScript3()
+{
+   var $obj = $('#JavaScript3');
+   var count = $obj.attr('data-count');
+   var bottomObj = $obj.offset().top + $obj.outerHeight();
+   var bottomWnd = $(window).scrollTop() + $(window).height();
+   if (bottomWnd > bottomObj && count != 0)
+   {
+      $({countUp: $obj.text()}).animate({countUp: count},
+      {
+         duration: 2000,
+         step: function() { $obj.text(Math.floor(this.countUp)); },
+         complete: function() { $obj.text(this.countUp); $obj.attr('data-count', 0); }
+      });  
+   }
+}
+$(window).scroll( function()
+{
+   countUpJavaScript3();
+});
+countUpJavaScript3();
+});
+</script>
+</head>
+<body>
+<div id="Layer2" style="position:absolute;text-align:center;left:0%;top:0px;width:100%;height:610px;z-index:43;">
+<div id="Layer2_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="Layer1" style="position:fixed;text-align:center;left:0px;top:0px;width:100%;height:45px;z-index:2;">
+<div id="Layer1_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text10" style="position:absolute;left:2px;top:15px;width:128px;height:15px;z-index:0;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>b</strong></span><span style="color:#F97D41;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>o</strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>o! </strong>bot</span></div>
+<div id="wb_CssMenu1" style="position:absolute;left:80px;top:20px;width:235px;height:20px;z-index:1;">
+<ul id="CssMenu1" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./explore.html" target="_self">Explore</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./commands.html" target="_self">Commands</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="https://discord.gg/eV3AyENXZv" target="_blank">Support</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="https://stats.uptimerobot.com/17EnjCpgAN" target="_blank">Status</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="wb_Text7" style="position:absolute;left:8px;top:89px;width:61px;height:22px;z-index:3;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;"><strong>Scary</strong></span></div>
+<div id="wb_Image1" style="position:absolute;left:59px;top:85px;width:58px;height:28px;z-index:4;">
+<img src="images/FUN2.png" id="Image1" alt="" width="58" height="29"></div>
+<div id="wb_Shape1" style="position:absolute;left:89px;top:262px;width:142px;height:43px;z-index:5;">
+<a href="https://discord.com/oauth2/authorize?client_id=774520746344054824&scope=bot&permissions=126032" target="_blank"><img class="hover" src="images/img0001_hover.png" alt="" style="border-width:0;width:142px;height:43px;"><span class="default"><img src="images/img0001.png" id="Shape1" alt="" style="width:142px;height:43px;"></span></a></div>
+<div id="wb_Text9" style="position:absolute;left:8px;top:153px;width:205px;height:46px;z-index:6;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">The scariest time of the year has arrived! Enjoy the seasonal fun for everyone to enjoy!</span></div>
+<div id="wb_Text8" style="position:absolute;left:8px;top:124px;width:255px;height:17px;z-index:7;">
+<span style="color:#B3BB4B;font-family:'Trebuchet MS';font-size:15px;"><strong>IT'S GONNA BE A SCREAM!</strong></span></div>
+<div id="wb_Image4" style="position:absolute;left:213px;top:73px;width:96px;height:162px;z-index:8;">
+<img src="images/WEB2.png" id="Image4" alt="" width="96" height="163"></div>
+<div id="wb_Image3" style="position:absolute;left:119px;top:352px;width:86px;height:27px;z-index:9;">
+<img src="images/ABOUT2.png" id="Image3" alt="" width="86" height="27"></div>
+<div id="wb_Text1" style="position:absolute;left:205px;top:357px;width:99px;height:22px;z-index:10;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;"><strong>Boo Bot</strong></span></div>
+<div id="wb_Text4" style="position:absolute;left:127px;top:413px;width:180px;height:123px;z-index:11;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">Trick or Treat? Get candy, scare your friends, play along and lift your spirit to the top of the leaderboard to win!<br><br>We know you're dying to have some spooktacular fun!<br></span></div>
+<div id="wb_Shape2" style="position:absolute;left:89px;top:552px;width:142px;height:43px;z-index:12;">
+<a href="https://discord.com/oauth2/authorize?client_id=774520746344054824&scope=bot&permissions=126032" target="_blank"><img class="hover" src="images/img0022_hover.png" alt="" style="border-width:0;width:142px;height:43px;"><span class="default"><img src="images/img0022.png" id="Shape2" alt="" style="width:142px;height:43px;"></span></a></div>
+<div id="wb_Text3" style="position:absolute;left:127px;top:388px;width:188px;height:15px;z-index:13;">
+<span style="color:#B3BB4B;font-family:'Trebuchet MS';font-size:13px;"><strong>CREEP IT REAL!</strong></span></div>
+<div id="wb_Image2" style="position:absolute;left:0px;top:347px;width:94px;height:189px;z-index:14;">
+<img src="images/boy2.png" id="Image2" alt="" width="94" height="189"></div>
+</div>
+</div>
+<div id="Layer3" style="position:absolute;text-align:center;left:0%;top:610px;width:100%;height:247px;z-index:44;">
+<div id="Layer3_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image6" style="position:absolute;left:48px;top:22px;width:82px;height:26px;z-index:15;">
+<img src="images/party2.png" id="Image6" alt="" width="82" height="26"></div>
+<div id="wb_Text2" style="position:absolute;left:9px;top:26px;width:99px;height:22px;z-index:16;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;"><strong>Let's</strong></span></div>
+<div id="wb_Text6" style="position:absolute;left:8px;top:50px;width:194px;height:31px;z-index:17;">
+<span style="color:#B3BB4B;font-family:'Trebuchet MS';font-size:13px;"><strong>THE MOST SPIRITED SEASON OF THEM ALL!</strong></span></div>
+<div id="wb_Text11" style="position:absolute;left:10px;top:92px;width:172px;height:46px;z-index:18;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">Frightful, deadly fun for you, your friends and your server's members.</span></div>
+<div id="wb_Image5" style="position:absolute;left:176px;top:40px;width:144px;height:98px;z-index:19;">
+<img src="images/CLOCK2.png" id="Image5" alt="" width="144" height="97"></div>
+<div id="wb_Shape3" style="position:absolute;left:89px;top:177px;width:142px;height:43px;z-index:20;">
+<a href="https://discord.com/oauth2/authorize?client_id=774520746344054824&scope=bot&permissions=126032" target="_blank"><img class="hover" src="images/img0023_hover.png" alt="" style="border-width:0;width:142px;height:43px;"><span class="default"><img src="images/img0023.png" id="Shape3" alt="" style="width:142px;height:43px;"></span></a></div>
+<div id="wb_Text13" style="position:absolute;left:240px;top:197px;width:69px;height:22px;text-align:center;z-index:21;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;">seasons</span></div>
+</div>
+</div>
+
+<div id="Layer5" style="position:absolute;text-align:center;left:0%;top:2088px;width:303.125%;height:162px;z-index:46;">
+<div id="Layer5_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text17" style="position:absolute;left:13px;top:129px;width:271px;height:33px;z-index:22;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">2020 - 2021 © KerBots, Santa Bot (Boo Bot)<br>Created with </span><span style="color:#FFFFFF;font-family:'Segoe UI Emoji';font-size:13px;">👻</span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;"> by Kerlwis.</span></div>
+<div id="wb_Text18" style="position:absolute;left:12px;top:47px;width:109px;height:31px;z-index:23;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:27px;letter-spacing:0.07px;"><strong>b</strong></span><span style="color:#F97D41;font-family:'Trebuchet MS';font-size:27px;letter-spacing:0.07px;"><strong>o</strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:27px;letter-spacing:0.07px;"><strong>o! </strong>bot</span></div>
+<div id="wb_CssMenu2" style="position:absolute;left:408px;top:47px;width:562px;height:48px;z-index:24;">
+<ul id="CssMenu2" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./index.html" target="_self">Privacy&nbsp;Policy</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./terms.html" target="_self">Terms&nbsp;&amp;&nbsp;Conditions</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./copyright-disputes.html" target="_self">Copyright&nbsp;Disputes</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./about.html" target="_self">About&nbsp;Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="Layer4" style="position:absolute;text-align:center;left:0%;top:857px;width:100%;height:58px;z-index:47;">
+<div id="Layer4_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image7" style="position:absolute;left:22px;top:21px;width:105px;height:33px;z-index:27;">
+<img src="images/us2.png" id="Image7" alt="" width="105" height="33"></div>
+<div id="wb_Text5" style="position:absolute;left:83px;top:26px;width:99px;height:22px;z-index:28;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;"><strong>already:</strong></span></div>
+</div>
+</div>
+<div id="Layer6" style="position:absolute;text-align:center;left:0%;top:915px;width:100%;height:50px;z-index:48;">
+<div id="Layer6_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="FlexContainer1">
+<div id="wb_JavaScript1" style="display:inline-block;width:22px;height:24px;z-index:29;">
+<div data-count="6" style="color:#FFFFFF;font-size:19px;font-family:Trebuchet MS;font-weight:normal;font-style:normal;text-align:center;text-decoration:none;" id="JavaScript1"></div>
+</div>
+<div id="wb_JavaScript2" style="display:inline-block;width:34px;height:20px;z-index:30;">
+<div data-count="743" style="color:#FFFFFF;font-size:19px;font-family:Trebuchet MS;font-weight:normal;font-style:normal;text-align:center;text-decoration:none;" id="JavaScript2"></div>
+</div>
+<div id="wb_JavaScript3" style="display:inline-block;width:67px;height:23px;z-index:31;">
+<div data-count="174211" style="color:#FFFFFF;font-size:19px;font-family:Trebuchet MS;font-weight:normal;font-style:normal;text-align:center;text-decoration:none;" id="JavaScript3"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="Layer7" style="position:absolute;text-align:center;left:0%;top:965px;width:100%;height:107px;z-index:49;">
+<div id="Layer7_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text12" style="position:absolute;left:11px;top:0px;width:79px;height:22px;text-align:center;z-index:36;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;">seasons</span></div>
+<div id="wb_Text14" style="position:absolute;left:98px;top:0px;width:79px;height:22px;text-align:center;z-index:37;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;">servers</span></div>
+<div id="wb_Text15" style="position:absolute;left:207px;top:0px;width:79px;height:22px;text-align:center;z-index:38;" data-top="transform:;transform:;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:19px;">users</span></div>
+<div id="wb_Shape4" style="position:absolute;left:89px;top:38px;width:142px;height:43px;z-index:39;">
+<a href="https://discord.com/oauth2/authorize?client_id=774520746344054824&scope=bot&permissions=126032" target="_blank"><img class="hover" src="images/img0025_hover.png" alt="" style="border-width:0;width:142px;height:43px;"><span class="default"><img src="images/img0025.png" id="Shape4" alt="" style="width:142px;height:43px;"></span></a></div>
+</div>
+</div>
+<div id="Layer8" style="position:absolute;text-align:center;left:0%;top:1072px;width:100%;height:134px;z-index:50;">
+<div id="Layer8_Container" style="width:320px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text16" style="position:absolute;left:0px;top:39px;width:90px;height:80px;z-index:40;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">2020 - 2021 © KerBots, Santa Bot (Boo Bot)<br>Created with </span><span style="color:#FFFFFF;font-family:'Segoe UI Emoji';font-size:13px;">👻</span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;"> by Kerlwis.</span></div>
+<div id="wb_Text19" style="position:absolute;left:4px;top:10px;width:109px;height:15px;z-index:41;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>b</strong></span><span style="color:#F97D41;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>o</strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;letter-spacing:0.07px;"><strong>o! </strong>bot</span></div>
+<div id="wb_CssMenu3" style="position:absolute;left:174px;top:10px;width:144px;height:110px;z-index:42;">
+<ul id="CssMenu3" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./index.html" target="_self">Privacy&nbsp;Policy</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./terms.html" target="_self">Terms&nbsp;&amp;&nbsp;Conditions</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./copyright-disputes.html" target="_self">Copyright&nbsp;Disputes</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./about.html" target="_self">About&nbsp;Us</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
